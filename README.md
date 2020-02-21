@@ -18,5 +18,7 @@ State space has **37 continuous dimensions**, including the speed of the agent a
 ### Solving condition
 The task is episodic, and to solve the environment, agent must **score an average of +13 out of 100 consecutive plots.**
 
-## Method details
+## Method 
+This project implement a Value Based method called Deep Q-Networks. Refer [paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) to see more algrithm details.
 
+We train a neural network with 4 layers to approximate action value function. 
