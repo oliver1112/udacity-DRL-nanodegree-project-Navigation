@@ -10,7 +10,6 @@ is used and the learning rate is set LR = 0.0005
 
 
 
-
 To fully utilize the state-action pairs, experience replay is used to steep up the learning process. The replay buffer size is set to 100000
 and the batch size is set to 64
 
