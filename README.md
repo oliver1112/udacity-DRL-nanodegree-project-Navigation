@@ -2,7 +2,7 @@
 [gif1]: https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/assets/trained%20agent.gif "Trained"
 [gif2]: https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/assets/random%20agent.gif "Random"
 
-# deep reinforcement learning project : Navigation
+# Deep Reinforcement Learning Project : Navigation
 In this project, an agent is trained for navigation. And it needs to collect yellow bananas while avoiding blue bananas.
 
 ## Environment
