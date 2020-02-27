@@ -23,10 +23,13 @@ This project implement a Value Based method called Deep Q-Networks. Refer [this 
 
 ## Dependencies
 To set up your python environment to run the code in this repository, follow the instructions below.
+
+
 1. please follow the instructions in the python file to set up your Python environment. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 ```bash
 pip install .
 ```
+
 
 2. I use the Windows (64-bit) operating system, [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip) to install the banana game environment. And unzip (or decompress) the file in the folder.
 For other operating system, please download the environment from one of the links below.
@@ -35,5 +38,5 @@ For other operating system, please download the environment from one of the link
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 
 
-3.Follow the instructions in `Navigation.ipynb` to see my code!  
+3. Follow the instructions in `Navigation.ipynb` to see my code!  
 
