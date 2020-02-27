@@ -30,7 +30,7 @@ This algorithm screenshot is taken from the [Deep Reinforcement Learning Nanodeg
 
 
 ## Plot of Rewards
-The Environment solved in 300 episodes. The reward changes with the number of times as shown below:
+The Environment solved in 300 episodes. The reward changes with the number of episodes as shown below:
 ![Plot][image3]
 
 
