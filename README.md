@@ -5,9 +5,9 @@
 # Deep Reinforcement Learning Project : Navigation
 In this project, an agent is trained to navigate and collect as many yellow bananas as possible while avoiding blue bananas
 
-## Environment
+## Environment Details
 ![Random][gif2]
-You can see a random agent from the gif. The environment provide a +1 reward to collect yellow bananas and a -1 reward to collect blue bananas. Therefore, the agent's goal is to collect as many yellow bananas as possible while avoiding the use of blue bananas.
+You can see a random agent from the above gif. The environment provide a +1 reward to collect yellow bananas and a -1 reward to collect blue bananas. Therefore, the agent's goal is to collect as many yellow bananas as possible while avoiding the use of blue bananas.
 
 ### The state space 
 State space has 37 continuous dimensions, including the speed of the agent and the ray-based perception of objects surrounding the agent's forward direction. With this information, the agent must learn how to best choose the action.
@@ -23,13 +23,15 @@ Four discrete actions are available, corresponding to:
 ### Solving condition
 The task is episodic, and to solve the environment, agent must score an average of +13 out of 100 consecutive plots.
 
-## Algrithm
+## Instructions
 This project implement a Value Based method called Deep Q-Networks. Refer the paper [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) to see more Deep Q-Networks algrithm details. And refer [the Report file](https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/report.md) to see my hyperparameters details, along with ideas for future work.
+
+Run the code in [the ipynb file](https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/Navigation.ipynb) in order to train the agent.
 
 you can see from the below gif that the trained agent learn how to navigate to get yellow bananas while avoiding blue ones.
 ![Train][gif1]
 
-## Dependencies
+## Getting Started
 To set up your python environment to run the code in this repository, follow the instructions below.
 
 
