@@ -19,7 +19,7 @@ Four discrete actions are available, corresponding to:
 The task is episodic, and to solve the environment, agent must score an average of +13 out of 100 consecutive plots.
 
 ## Algrithm
-This project implement a Value Based method called Deep Q-Networks. Refer [this paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) to see more Deep Q-Networks algrithm details. And refer the Report file to see my parameters details, along with ideas for future work.
+This project implement a Value Based method called Deep Q-Networks. Refer the paper [Human-level control through deep reinforcement learning (2015)"](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) to see more Deep Q-Networks algrithm details. And refer the Report file to see my implementation and hyperparameters details, along with ideas for future work.
 
 ## Dependencies
 To set up your python environment to run the code in this repository, follow the instructions below.
