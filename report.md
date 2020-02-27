@@ -30,7 +30,7 @@ This algorithm screenshot is taken from the [Deep Reinforcement Learning Nanodeg
 
 
 ## Plot of Rewards
-The Environment solved in 300 episodes. The reward changes with the number of episodes as shown below:
+The Environment solved in 300 episodes, which means it receive an average reward (over 100 episodes) of at least +13. The reward changes with the number of episode as shown below:
 ![Plot][image3]
 
 
@@ -38,4 +38,4 @@ The Environment solved in 300 episodes. The reward changes with the number of ep
 
 ## Ideas for Future Work
 - Trying to implement a double DQN, a dueling DQN, or prioritized experience replay.
-- Trying to solve the problem direatly from pixels without the ray-based state space. A convolutional neural network would be used at the input of the network in order to process the raw pixels.
+- Trying to solve the problem directly from pixels instead of the ray-based state space. A convolutional neural network would be used at the input of the network in order to process the raw pixels.
