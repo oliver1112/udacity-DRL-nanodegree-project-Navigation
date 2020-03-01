@@ -1,13 +1,11 @@
 [//]: # (Image References)
 [gif1]: https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/assets/trained%20agent.gif "Trained"
-[gif2]: https://github.com/oliver1112/udacity-DRL-nanodegree-project-Navigation/blob/master/assets/random%20agent.gif "Random"
 
 # Deep Reinforcement Learning Project : Navigation
 In this project, an agent is trained to navigate and collect as many yellow bananas as possible while avoiding blue bananas
 
 ## Environment Details
-![Random][gif2]
-You can see a random agent from the above gif. The environment provide a +1 reward to collect yellow bananas and a -1 reward to collect blue bananas. Therefore, the agent's goal is to collect as many yellow bananas as possible while avoiding the use of blue bananas.
+The environment provide a +1 reward to collect yellow bananas and a -1 reward to collect blue bananas. Therefore, the agent's goal is to collect as many yellow bananas as possible while avoiding the use of blue bananas.
 
 ### The state space 
 State space has 37 continuous dimensions, including the speed of the agent and the ray-based perception of objects surrounding the agent's forward direction. With this information, the agent must learn how to best choose the action.
